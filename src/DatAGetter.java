@@ -11,7 +11,7 @@ public class DatAGetter {
 
     private static int getResultAmount(String query) throws IOException {
 
-        URLConnection connection = new URL("https://www.tab.co.nz/sport/#741").openConnection();
+        URLConnection connection = new URL("https://github.com/91Seconds/WebPuller").openConnection();
         connection.setRequestProperty("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.95 Safari/537.11");
         connection.connect();
 
